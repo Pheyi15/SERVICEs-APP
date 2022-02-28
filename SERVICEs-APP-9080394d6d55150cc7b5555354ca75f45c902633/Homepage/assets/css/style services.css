@@ -1,0 +1,90 @@
+@import "templatecolours services.css";
+body{max-width: 960px;margin-left: auto;margin-right: auto;}
+/* NAVIGATION BAR CSS */
+nav>ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+nav>ul>li{float: left;}
+nav>ul>li a{display: block;color: #000000; text-align: center; padding: 10px 30px; text-decoration: none;}
+li a:hover{color:#363636}
+/*Division*/
+div
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/*IMAGE SIZING*/
+#plumbing
+{width: 200px;height: 200px;}
+#Electrical
+{width: 200px;height: 200px;}
+#Painting
+{width: 200px;height: 200px;}
+#Janitorial
+{width: 200px;height: 200px;}
+#pw
+{width: 250px;height: 250px;}
+#Elect
+{width: 250px;height: 250px;}
+#Jan
+{width: 250px;height: 250px;}
+#pw2
+{width: 250px;height: 250px;}
+#pw3
+{width: 250px;height: 250px;}
+#pw4
+{width: 250px;height: 250px;}
+#Test1
+{width: 75px;border-radius:30%;padding: 10px;}
+#Test2
+{width: 75px;border-radius:30%;padding: 10px;}
+#Test3
+{width: 75px;border-radius:30%;padding: 10px;}
+#Test4
+{width: 75px;border-radius:30%;padding: 10px;}
+/*TEXT STYLING*/
+h1{font-family:'Roboto', sans-serif; font-weight: 300;}
+p,h2,h3,h4,h5,a{font-family: 'Roboto'sans-serif;font-weight: 400;color: white;}
+h3,h4,h5{font-family: 'Roboto'sans-serif; font-weight: 700;}
+
+footer{background-color: #0047AB}
+footer>p{color:white; width: 300px;margin-left: auto;margin-right: auto;}
+/*MARGIN FIXES*/
+
+main{padding-right: 0px !important;}
+/*FONT SIZES*/
+h1{font-size: 20px;}
+h2{font-size: 18px;}
+h3{font-size: 16px;}
+h4{font-size: 14px;}
+p{font-size: 13px;}
+a{font-size: 13px;}
+
+/*class*/
+.container
+{
+border-style: solid;border-color: white;
+}
+
